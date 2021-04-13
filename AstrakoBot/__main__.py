@@ -57,9 +57,10 @@ aku adalah bot pintar!.
 AKU ADALAH BOT YANG MEMBANTU GRUPCHAT 
 ━─━─━─━─━─━─━─━─━─━─━
 
+▪**Follow My instagram:**[༄𝐌𝐑. 𝐙✯](https://www.instagram.com/zekiloi)
 ▪**Managed with by:** [༄𝐌𝐑. 𝐙✯](https://t.me/akagaminozeki)
 ▪**JOIN MY CH OFFICIAL:** [𝙷𝔸𝐥𝑪𝑦ᴏⁿ](http://t.me/fuckkkUbitchhh)
-▪**Follow My instagram:**[༄𝐌𝐑. 𝐙✯](https://www.instagram.com/zekiloi/)
+
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
 """
@@ -213,17 +214,12 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 CTH Grup",
-                             url=f"https://t.me/caritemanhidop"),
+                             text="AXIOMATIC",
+                             url=f"https://t.me/fuckUallHmmm"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
                              url=f"t.me/{dispatcher.bot.username}?start=help")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🚫 Gban Logs",
-                             url="https://t.me/joinchat/SKYP-Hv8tqZ-UvYq")
                      ]]))
     else:
         update.effective_message.reply_text(
