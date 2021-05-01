@@ -57,9 +57,9 @@ aku adalah bot pintar!.
 AKU ADALAH BOT YANG MEMBANTU GRUPCHAT 
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Follow My instagram:**[༄𝐌𝐑. 𝐙✯](https://www.instagram.com/zekiloi)
-▪**Managed with by:** [༄𝐌𝐑. 𝐙✯](https://t.me/akagaminozeki)
-▪**JOIN MY CH OFFICIAL:** [𝙷𝔸𝐥𝑪𝑦ᴏⁿ](http://t.me/fuckkkUbitchhh)
+
+▪**Managed with by:** [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki)
+
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -90,7 +90,7 @@ ASTRAKOBOT_IMG = "https://telegra.ph/tytyd-04-13"
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [༄𝐌𝐑. 𝐙✯](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
+user gratisan gausah sok keras; [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -214,12 +214,19 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="AXIOMATIC",
-                             url=f"https://t.me/fuckUallHmmm"),
+                             text="𝚁𝙰𝙽𝙳𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴",
+                             url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
                              url=f"t.me/{dispatcher.bot.username}?start=help")
+                                                InlineKeyboardButton(
+
+                             text="Find Me On IG",
+
+                             url=f"https://www.instagram.com/zekiloi"),
+
+                     
                      ]]))
     else:
         update.effective_message.reply_text(
