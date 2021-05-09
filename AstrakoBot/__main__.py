@@ -221,14 +221,14 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
                              url=f"t.me/{dispatcher.bot.username}?start=help"),
-                    ]
+                    ],
                      [
-                        InlineKeyboardButton(
-                             text="Find Me On IG",
-                             url=f"https://www.instagram.com/zekiloi")
 
-                     
-                     ]]))
+                         InlineKeyboardButton(
+                             text="Find Me On IG",
+                             url=f"https://www.instagram.com/zekiloi"
+                     ]])).
+                       
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
