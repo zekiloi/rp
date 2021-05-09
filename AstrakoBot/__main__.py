@@ -216,13 +216,13 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="𝚁𝙰𝙽𝙳𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴",
                              url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1"),
-                     
+                    
 
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
                              url=f"t.me/{dispatcher.bot.username}?start=help"),
-            
- 
+                    ]
+                     [
                         InlineKeyboardButton(
                              text="Find Me On IG",
                              url=f"https://www.instagram.com/zekiloi")
