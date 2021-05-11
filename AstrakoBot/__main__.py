@@ -58,7 +58,7 @@ AKU ADALAH BOT YANG MEMBANTU GRUPCHAT
 ━─━─━─━─━─━─━─━─━─━─━
 
 
-▪**Managed with by:** [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki)
+▪**Managed with by:** [Zeki](https://t.me/akagaminozeki)
 
 
 ━─━─━─━─━─━─━─━─━─━─━
@@ -90,7 +90,7 @@ ASTRAKOBOT_IMG = "https://telegra.ph/tytyd-04-13"
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
+user gratisan gausah sok keras; [Zeki](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -206,29 +206,36 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[
-                        InlineKeyboardButton(
-                            text="🤖 Add Saya ke group",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="𝚁𝙰𝙽𝙳𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴",
-                             url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1"),
-                    
-
-                         InlineKeyboardButton(
-                             text="🍭 Help & Command",
-                             url=f"t.me/{dispatcher.bot.username}?start=help"),
-                    ],
-                     [
-
-                         InlineKeyboardButton(
-                             text="Find Me On IG",
-                             url=f"https://www.instagram.com/zekiloi"
-                     ]])).
-                       
+                    [
+                        [
+                            InlineKeyboardButton(
+                                text="+ Tambahkan Saya ke group",
+                                url="t.me/{}?startgroup=true".format(
+                                    context.bot.username
+                                ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="𝚁𝙰𝙽𝙳𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴",
+                                url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Help & Command",
+                                url="t.me/{dispatcher.bot.username}?start=help",
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Find me on ig",
+                                url="https://www.instagram.com/zekiloi",
+                            )
+                        ],
+                    ]
+                ),
+            )
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
