@@ -58,7 +58,7 @@ AKU ADALAH BOT YANG MEMBANTU GRUPCHAT
 ━─━─━─━─━─━─━─━─━─━─━
 
 
-▪**Managed with by:** [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki)
+▪**Managed with by:** [Zeki](https://t.me/akagaminozeki)
 
 
 ━─━─━─━─━─━─━─━─━─━─━
@@ -90,7 +90,7 @@ ASTRAKOBOT_IMG = "https://telegra.ph/tytyd-04-13"
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [「 Λxm × 𝕫Ⓔ𝐊ι 𒆜』](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
+user gratisan gausah sok keras; [Zeki](https://t.me/akagaminozeki), or [SUBS MY CH](https://t.me/fuckkkUbitchhh)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
