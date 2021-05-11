@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Help & Command",
-                                url="t.me/{dispatcher.bot.username}?start=help",
+                                url="t.me/ranndompeople_bot?start=help",
                             )
                         ],
                         [
