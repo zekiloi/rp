@@ -202,35 +202,26 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton(
-                                text="+ Tambahkan Saya ke group",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
-                                ),
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Contoh Group",
-                                url=f"t.me/joinchat/CiTthHqrRTtjZjhl",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Help & Command",
-                                url="t.me/{dispatcher.bot.username}?start=help",
-
-
-                            InlineKeyboardButton(
-                                text="Find me on ig",
-                                url="https://www.instagram.com/zekiloi",
-                            )
-                        ],
-                    ]
-                ),
-            )
+                    [[
+                        InlineKeyboardButton(
+                            text="🤖 Add Saya ke group",
+                            url="t.me/{}?startgroup=true".format(
+                                context.bot.username))
+                    ],
+                     [
+                         InlineKeyboardButton(
+                             text="👥 CTH Grup",
+                             url=f"t.me/joinchat/CiTthHqrRTtjZjhl"),
+                     
+                         InlineKeyboardButton(
+                             text="🍭 Help & Command",
+                             url=f"t.me/{dispatcher.bot.username}?start=help")
+                     ],
+                     [
+                         InlineKeyboardButton(
+                             text="Owner Ig",
+                             url="https://instagram.com/zekiloi")
+                     ]]))
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
