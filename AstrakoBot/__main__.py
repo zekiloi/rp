@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Contoh Group",
-                                url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1",
+                                url=f"t.me/joinchat/CiTthHqrRTtjZjhl",
                             ),
                         ],
                         [
