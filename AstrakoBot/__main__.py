@@ -56,11 +56,7 @@ Hi {}, nama saya {}!
 aku adalah bot pintar!.
 AKU ADALAH BOT YANG MEMBANTU GRUPCHAT 
 ━─━─━─━─━─━─━─━─━─━─━
-
-
 ▪**Managed with by:** [Zeki](https://t.me/akagaminozeki)
-
-
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
 """
@@ -217,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="𝚁𝙰𝙽𝙳𝙾𝙼 𝙿𝙴𝙾𝙿𝙻𝙴",
+                                text="Contoh Group",
                                 url=f"https://t.me/joinchat/39Tsjlp-5LpiMDE1",
                             ),
                         ],
@@ -225,9 +221,8 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 text="Help & Command",
                                 url="t.me/{dispatcher.bot.username}?start=help",
-                            )
-                        ],
-                        [
+
+
                             InlineKeyboardButton(
                                 text="Find me on ig",
                                 url="https://www.instagram.com/zekiloi",
